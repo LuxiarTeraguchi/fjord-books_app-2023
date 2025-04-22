@@ -1,0 +1,28 @@
+en:
+  activerecord:
+    models:
+      book: Book  #g
+
+    attributes:
+      book:
+        author: Author  #g
+        memo: Memo  #g
+        picture: Picture  #g
+        title: Title  #g
+
+  books:
+    heading:
+      index: "Books"
+      new: "New Book"
+      edit: "Editing book"
+    link:
+      new: "New book"
+      show: "Show this book"
+      edit: "Edit this book"
+      back: "Back to books"
+    button:
+      delete: "Destroy this book"
+    notice:
+      create: "Book was successfully created."
+      update: "Book was successfully updated."
+      destroy: "Book was successfully destroyed."
